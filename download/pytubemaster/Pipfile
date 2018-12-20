@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+"flake8" = "*"
+pytest = "*"
+mock = "*"
+pytest-mock = "*"
+pre-commit = "*"
+"enum34" = "*"
+pytest-cov = "*"
+"pathlib2" = "*"
+"scandir" = "*"
+bumpversion = "*"
+coveralls = "*"
+twine = "*"
+
+[requires]
+python_version = "3.6"

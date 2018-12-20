@@ -1,0 +1,47 @@
+*.py[oc]
+
+# Temp files
+*~
+~*
+.*~
+\#*
+.#*
+*#
+dist
+.DS_Store
+
+# Build files
+build
+dist
+pkg
+*.egg
+*.egg-info
+
+# Test files
+.pytest_cache/
+
+# Debian Files
+debian/files
+debian/python-beaver*
+
+# Sphinx build
+doc/_build
+
+# Generated man page
+doc/aws_hostname.1
+
+.coverage
+.cache
+_run.py
+_devfiles/*
+
+_build
+_static
+_templates
+_autosummary
+.pytest_cache*
+
+# IDE Files
+.idea/
+#Pycharm stuff
+.idea/*
