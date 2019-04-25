@@ -1,8 +1,13 @@
 ```
-* 현재 유튜브 링크 정규식에 맞는 pytube 사용함 (원본 repository : https://github.com/clianor/voice-speaker-tensorflow/tree/master/ 를 수정함) : 2018-12-21
+* 현재 유튜브 링크 정규식에 맞는 pytube 사용함 
+(원본 repository : https://github.com/clianor/voice-speaker-tensorflow/tree/master/ 를 수정함) 
+: updated 2018-12-21
 ```
 ```
-* 현재 유튜브 링크 정규식에 맞는 pytube업데이트 방법: pip install pytube후 extract.py를 다음과 같이 수정 : 2019-04-25
+* 현재 유튜브 링크 정규식에 맞는 pytube업데이트 방법: pip install pytube후 extract.py를 다음과 같이 수정 
+: updated 2019-04-25
+
+CODE extract.py]
 
 else:
         # I'm not entirely sure what ``t`` represents. Looks to represent a
