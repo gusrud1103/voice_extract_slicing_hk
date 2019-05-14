@@ -20,5 +20,6 @@ if __name__ == "__main__":
             print("\npath:", ".\\"+os.path.join(sys.argv[1], "data\\"+filename))
             audio_clip.write_audiofile(os.path.join(sys.argv[2], "data\\"+os.path.splitext(filename)[0]+".wav"))
             audio_clip.close()
+            
         except Exception as e:
             print(filename, e)
